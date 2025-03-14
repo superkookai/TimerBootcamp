@@ -6,17 +6,20 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		EFE73B722D842BF000C45A90 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFE73B6F2D842BF000C45A90 /* ContentView.swift */; };
+		EFE73B732D842BF000C45A90 /* TimerBootcampApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFE73B702D842BF000C45A90 /* TimerBootcampApp.swift */; };
+		EFE73B742D842BF000C45A90 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFE73B6C2D842BF000C45A90 /* Preview Assets.xcassets */; };
+		EFE73B752D842BF000C45A90 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFE73B6E2D842BF000C45A90 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		EFE73B5B2D842BE800C45A90 /* TimerBootcamp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TimerBootcamp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFE73B6C2D842BF000C45A90 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EFE73B6E2D842BF000C45A90 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EFE73B6F2D842BF000C45A90 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		EFE73B702D842BF000C45A90 /* TimerBootcampApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerBootcampApp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		EFE73B5D2D842BE800C45A90 /* TimerBootcamp */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = TimerBootcamp;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		EFE73B582D842BE800C45A90 /* Frameworks */ = {
@@ -32,7 +35,7 @@
 		EFE73B522D842BE800C45A90 = {
 			isa = PBXGroup;
 			children = (
-				EFE73B5D2D842BE800C45A90 /* TimerBootcamp */,
+				EFE73B712D842BF000C45A90 /* TimerBootcamp */,
 				EFE73B5C2D842BE800C45A90 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -43,6 +46,25 @@
 				EFE73B5B2D842BE800C45A90 /* TimerBootcamp.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		EFE73B6D2D842BF000C45A90 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				EFE73B6C2D842BF000C45A90 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		EFE73B712D842BF000C45A90 /* TimerBootcamp */ = {
+			isa = PBXGroup;
+			children = (
+				EFE73B6F2D842BF000C45A90 /* ContentView.swift */,
+				EFE73B702D842BF000C45A90 /* TimerBootcampApp.swift */,
+				EFE73B6E2D842BF000C45A90 /* Assets.xcassets */,
+				EFE73B6D2D842BF000C45A90 /* Preview Content */,
+			);
+			path = TimerBootcamp;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -59,9 +81,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				EFE73B5D2D842BE800C45A90 /* TimerBootcamp */,
 			);
 			name = TimerBootcamp;
 			packageProductDependencies = (
@@ -109,6 +128,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EFE73B742D842BF000C45A90 /* Preview Assets.xcassets in Resources */,
+				EFE73B752D842BF000C45A90 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -119,6 +140,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EFE73B722D842BF000C45A90 /* ContentView.swift in Sources */,
+				EFE73B732D842BF000C45A90 /* TimerBootcampApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
